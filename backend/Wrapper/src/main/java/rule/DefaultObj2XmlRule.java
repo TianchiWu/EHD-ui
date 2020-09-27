@@ -1,7 +1,7 @@
 package rule;
 import tools.XmlTransformUtil;
 
-public class DefaultType2XmlTransformRule<Object> implements rule.Type2XmlTransferRule<Object> {
+public class DefaultObj2XmlRule<Object> implements Obj2XmlRule<Object> {
     public String transformTypeToXml(Object object) {
         return XmlTransformUtil.object2Xml(object);
     }

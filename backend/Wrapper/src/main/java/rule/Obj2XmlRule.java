@@ -1,5 +1,5 @@
 package rule;
 
-public interface Type2XmlTransferRule<T> {
+public interface Obj2XmlRule<T> {
     String transformTypeToXml(T object);
 }
