@@ -1,7 +1,11 @@
 package rule;
 import tools.XmlTransformUtil;
 
-public class DefaultObj2XmlRule<Object> implements Obj2XmlRule<Object> {
+/**
+ * 对象转xml的默认实现类
+ */
+
+public class DefaultObj2XmlRule implements Obj2XmlRule {
     public String transformTypeToXml(Object object) {
         return XmlTransformUtil.object2Xml(object);
     }

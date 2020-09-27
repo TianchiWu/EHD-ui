@@ -4,6 +4,10 @@ import java.beans.XMLEncoder;
 import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
 
+/**
+ * 对象转xml工具类
+ */
+
 public class XmlTransformUtil {
     public static String object2Xml(Object object){
         String ret=null;
